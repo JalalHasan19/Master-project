@@ -16,7 +16,7 @@ export const Items: itemInterface[] = [
     id: 2,
     text: 'This is an Item',
     day: '27th August, 2023',
-    reminder: true
+    reminder: false
   },
   {
     id: 3,
