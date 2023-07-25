@@ -1,4 +1,4 @@
-<div class="task">
-  <h3>{{item.text}}</h3>
+<div class="item m-[5px] bg-[#F4F4F4] py-10 px-20 cursor-pointer" [ngClass]="{'reminder': item.reminder}">
+  <h3 class='flex items-center justify-between'>{{item.text}}</h3>
   <p>{{item.day}}</p>
 </div>
